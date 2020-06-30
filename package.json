@@ -11,7 +11,12 @@
     "type": "git",
     "url": "git+https://github.com/Savalone47/node-express-course.git"
   },
-  "keywords": ["nodejs","express","git","javascript"],
+  "keywords": [
+    "nodejs",
+    "express",
+    "git",
+    "javascript"
+  ],
   "author": "josue yenga",
   "license": "ISC",
   "bugs": {
@@ -19,6 +24,8 @@
   },
   "homepage": "https://github.com/Savalone47/node-express-course#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "nodemon": "^2.0.4"
   }
